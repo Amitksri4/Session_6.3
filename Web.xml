@@ -1,0 +1,18 @@
+<web-app>
+    <servlet>
+        <servlet-name>abc</servlet-name>
+        <servlet-class>Serv1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>pqr</servlet-name>
+        <servlet-class>Serv2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>abc</servlet-name>
+        <url-pattern>/s1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>pqr</servlet-name>
+        <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+</web-app>
